@@ -14,8 +14,12 @@
         "phpunit/phpunit": "^9.5"
     },
     "autoload": {
-        "psr4": {
+        "psr-4": {
             "Example\\": "src"
         }
+    },
+    "scripts": {
+        "test": "phpunit tests",
+        "repl": "psysh repl.php"
     }
 }
